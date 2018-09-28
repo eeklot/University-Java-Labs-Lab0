@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08a8194f-469d-4d7e-aafd-db02c52500eb" name="Default Changelist" comment="" />
+    <list default="true" id="08a8194f-469d-4d7e-aafd-db02c52500eb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Test/com/tolik/lab0Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/com/tolik/lab0Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tolik/lab0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tolik/lab0.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,12 +35,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="6695" />
+          <entry key="java" value="8007" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6695" />
+          <entry key="JAVA" value="8007" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -50,8 +53,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/com/tolik/lab0.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="216">
-                  <caret line="68" column="20" lean-forward="true" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
+                <state relative-caret-position="1980">
+                  <caret line="92" column="36" selection-start-line="92" selection-start-column="36" selection-end-line="92" selection-end-column="36" />
                   <folding>
                     <element signature="e#748#749#0" expanded="true" />
                     <element signature="e#805#806#0" expanded="true" />
@@ -67,8 +70,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Test/com/tolik/lab0Test.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="276">
-                  <caret line="161" column="63" selection-start-line="161" selection-start-column="63" selection-end-line="161" selection-end-column="63" />
+                <state relative-caret-position="176">
+                  <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#525#526#0" expanded="true" />
@@ -85,6 +88,8 @@
                     <element signature="e#4158#4159#0" expanded="true" />
                     <element signature="e#4711#4712#0" expanded="true" />
                     <element signature="e#4778#4779#0" expanded="true" />
+                    <element signature="e#5131#5132#0" expanded="true" />
+                    <element signature="e#5180#5181#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -102,6 +107,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -110,12 +118,13 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
     <option name="height" value="1030" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -156,13 +165,13 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538083820742" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538121135547" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.postfix.templates" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -184,8 +193,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.lab0Test.linesInTest">
-    <configuration name="lab0Test.changeValue" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.lab0Test">
+    <configuration name="lab0Test" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Labs" />
       <extension name="coverage">
         <pattern>
@@ -195,7 +204,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.tolik" />
       <option name="MAIN_CLASS_NAME" value="com.tolik.lab0Test" />
-      <option name="METHOD_NAME" value="changeValue" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lab0Test.arrayTaskTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tolik.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tolik" />
+      <option name="MAIN_CLASS_NAME" value="com.tolik.lab0Test" />
+      <option name="METHOD_NAME" value="arrayTaskTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -203,7 +228,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lab0Test.examinateTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="lab0Test.changeRawsTEst" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Labs" />
       <extension name="coverage">
         <pattern>
@@ -213,7 +238,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.tolik" />
       <option name="MAIN_CLASS_NAME" value="com.tolik.lab0Test" />
-      <option name="METHOD_NAME" value="examinateTest" />
+      <option name="METHOD_NAME" value="changeRawsTEst" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -232,24 +257,6 @@
       <option name="PACKAGE_NAME" value="com.tolik" />
       <option name="MAIN_CLASS_NAME" value="com.tolik.lab0Test" />
       <option name="METHOD_NAME" value="expTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="lab0Test.isEqualsTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Labs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tolik.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.tolik" />
-      <option name="MAIN_CLASS_NAME" value="com.tolik.lab0Test" />
-      <option name="METHOD_NAME" value="isEqualsTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -276,19 +283,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.lab0Test.isEqualsTest" />
-      <item itemvalue="TestNG.lab0Test.changeValue" />
-      <item itemvalue="TestNG.lab0Test.examinateTest" />
       <item itemvalue="TestNG.lab0Test.expTest" />
       <item itemvalue="TestNG.lab0Test.linesInTest" />
+      <item itemvalue="TestNG.lab0Test.arrayTaskTest" />
+      <item itemvalue="TestNG.lab0Test.changeRawsTEst" />
+      <item itemvalue="TestNG.lab0Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.lab0Test" />
+        <item itemvalue="TestNG.lab0Test.changeRawsTEst" />
+        <item itemvalue="TestNG.lab0Test.arrayTaskTest" />
         <item itemvalue="TestNG.lab0Test.linesInTest" />
         <item itemvalue="TestNG.lab0Test.expTest" />
-        <item itemvalue="TestNG.lab0Test.examinateTest" />
-        <item itemvalue="TestNG.lab0Test.changeValue" />
-        <item itemvalue="TestNG.lab0Test.isEqualsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -306,39 +313,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="lab0Test_linesInTest - 2018.09.28 at 00h 23m 42s.xml">
-      <configuration name="lab0Test.linesInTest" configurationId="TestNG" />
+    <history-entry file="lab0Test_arrayTaskTest - 2018.09.28 at 10h 08m 52s.xml">
+      <configuration name="lab0Test.arrayTaskTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="lab0Test_linesInTest - 2018.09.28 at 00h 24m 06s.xml">
-      <configuration name="lab0Test.linesInTest" configurationId="TestNG" />
+    <history-entry file="lab0Test_arrayTaskTest - 2018.09.28 at 10h 10m 22s.xml">
+      <configuration name="lab0Test.arrayTaskTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="lab0Test_linesInTest - 2018.09.28 at 00h 24m 32s.xml">
-      <configuration name="lab0Test.linesInTest" configurationId="TestNG" />
+    <history-entry file="lab0Test_arrayTaskTest - 2018.09.28 at 10h 11m 54s.xml">
+      <configuration name="lab0Test.arrayTaskTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="lab0Test_linesInTest - 2018.09.28 at 00h 26m 31s.xml">
-      <configuration name="lab0Test.linesInTest" configurationId="TestNG" />
+    <history-entry file="lab0Test_changeRawsTEst - 2018.09.28 at 10h 38m 20s.xml">
+      <configuration name="lab0Test.changeRawsTEst" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="lab0Test_linesInTest - 2018.09.28 at 00h 26m 49s.xml">
-      <configuration name="lab0Test.linesInTest" configurationId="TestNG" />
+    <history-entry file="lab0Test_changeRawsTEst - 2018.09.28 at 10h 39m 36s.xml">
+      <configuration name="lab0Test.changeRawsTEst" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="lab0Test_linesInTest - 2018.09.28 at 00h 28m 08s.xml">
-      <configuration name="lab0Test.linesInTest" configurationId="TestNG" />
+    <history-entry file="lab0Test_changeRawsTEst - 2018.09.28 at 10h 40m 55s.xml">
+      <configuration name="lab0Test.changeRawsTEst" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="lab0Test_linesInTest - 2018.09.28 at 00h 28m 46s.xml">
-      <configuration name="lab0Test.linesInTest" configurationId="TestNG" />
+    <history-entry file="lab0Test_changeRawsTEst - 2018.09.28 at 10h 41m 32s.xml">
+      <configuration name="lab0Test.changeRawsTEst" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="lab0Test_linesInTest - 2018.09.28 at 00h 29m 32s.xml">
-      <configuration name="lab0Test.linesInTest" configurationId="TestNG" />
+    <history-entry file="lab0Test_changeRawsTEst - 2018.09.28 at 10h 45m 36s.xml">
+      <configuration name="lab0Test.changeRawsTEst" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="lab0Test_linesInTest - 2018.09.28 at 00h 29m 46s.xml">
-      <configuration name="lab0Test.linesInTest" configurationId="TestNG" />
+    <history-entry file="lab0Test_changeRawsTEst - 2018.09.28 at 10h 46m 01s.xml">
+      <configuration name="lab0Test.changeRawsTEst" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="lab0Test_linesInTest - 2018.09.28 at 00h 30m 05s.xml">
-      <configuration name="lab0Test.linesInTest" configurationId="TestNG" />
+    <history-entry file="lab0Test - 2018.09.28 at 10h 47m 20s.xml">
+      <configuration name="lab0Test" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <frame x="0" y="0" width="1536" height="864" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25302014" />
@@ -351,7 +358,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32885906" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32885906" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16182049" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -410,8 +417,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tolik/lab0.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="68" column="20" lean-forward="true" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
+        <state relative-caret-position="1980">
+          <caret line="92" column="36" selection-start-line="92" selection-start-column="36" selection-end-line="92" selection-end-column="36" />
           <folding>
             <element signature="e#748#749#0" expanded="true" />
             <element signature="e#805#806#0" expanded="true" />
@@ -421,8 +428,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Test/com/tolik/lab0Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="161" column="63" selection-start-line="161" selection-start-column="63" selection-end-line="161" selection-end-column="63" />
+        <state relative-caret-position="176">
+          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#525#526#0" expanded="true" />
@@ -439,6 +446,8 @@
             <element signature="e#4158#4159#0" expanded="true" />
             <element signature="e#4711#4712#0" expanded="true" />
             <element signature="e#4778#4779#0" expanded="true" />
+            <element signature="e#5131#5132#0" expanded="true" />
+            <element signature="e#5180#5181#0" expanded="true" />
           </folding>
         </state>
       </provider>

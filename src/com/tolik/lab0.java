@@ -89,9 +89,9 @@ public class lab0 {
     // k1 to k2
     public void changeRaws(float[][] mtrx,int k1, int k2){
         for(int i = 0; i < mtrx.length; ++i){
-            float temp = mtrx[k1][i];
-            mtrx[k1][i] = mtrx[k2][i];
-            mtrx[k2][i] = temp;
+            float temp = mtrx[i][k1];
+            mtrx[i][k1] = mtrx[i][k2];
+            mtrx[i][k2] = temp;
         }
     }
 }

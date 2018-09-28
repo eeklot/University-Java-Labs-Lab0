@@ -3,6 +3,9 @@ package com.tolik;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+
+import java.util.Arrays;
+
 import static org.testng.Assert.*;
 
 public class lab0Test {
@@ -160,5 +163,59 @@ public class lab0Test {
         assertEquals(obj.linesIn(line_a,line_b),exp);
     }
     ///////////////////////////////////////////////////////////
+    // check function : array task
+    @DataProvider
+    public Object[][] arrayTaskProvider(){
+        return new Object[][]{
+                {new int[] {1,2,3,4,5,6,7,8,9,10},  9},
+                {new int[] {10,2,3,4,5,1,2},    0},
+                {new int[] {-1,-2,-3,-4,-5,-6,-7,-8,-9,-10},    0},
+                {new int[] {1,-2,-3,-4,5,-6,-7,-8,-9,10},    5}
+        };
+    }
+    @Test(dataProvider = "arrayTaskProvider")
+    public void arrayTaskTest(int[] array, int exp){
+        assertEquals(obj.arrayTask(array),exp);
+    }
+    ///////////////////////////////////////////////////////////
+    // check function : changeRaws
+    @DataProvider
+    public Object[][] changeRawsProvider(){
+            return new Object[][]{
+                    {
+                        new float[][]{
+                                {1,2},
+                                {1,2}
+                                },
+                            // k1 k2
+                            0, 1,
+                            // exp matr
+                            new float[][]{
+                                    {2, 1},
+                                    {2, 1}
+                            }
+                    },
+                    // second fiels
+                    {
+                        new float[][]{
+                                {1,2,3},
+                                {-1,2,-3},
+                                {0,0,1}
+                        },
+                        0,2,
+                        new float[][]{
+                                {3,2,1},
+                                {-3,2,-1},
+                                {1,0,0}
+                        }
+
+                    }
+                };
+    }
+    @Test(dataProvider = "changeRawsProvider")
+    public void changeRawsTEst(float[][] array,int k1,int k2, float[][] exp){
+        obj.changeRaws(array,k1,k2);
+        assertTrue(Arrays.deepEquals(array,exp));
+    }
 }
 
